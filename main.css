@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(230, 228, 226);
+    font-family: 'Nunito', sans-serif;
+}
+
+.container{
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: rgb(247, 233, 173);
+    padding: 8px 32px;
+}
+
+header{
+    padding: 24px 0 8px 0;
+}
+
+input, button{
+    max-width: 400px;
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 6px;
+}
+
+.campo-form{
+    margin-bottom: 8px;
+}
+
+.formInvalido{
+    color: red;
+}
+
+button{
+    width: 128px;
+}
+
+#email{
+    width: 200px;
+}
+
+#telefone, #cpf {
+    width: 128px;
+}
+
+#cep{
+    width: 100px;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+button{
+    background-color: rgb(247, 189, 83);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(236, 195, 118);
+}
